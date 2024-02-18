@@ -1,0 +1,1 @@
+Current public IP address is stored here.
