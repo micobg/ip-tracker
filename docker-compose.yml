@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  ip_tracker:
+    container_name: ip_tracker
+    build: .
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/logs
+      - ./store:/app/store
