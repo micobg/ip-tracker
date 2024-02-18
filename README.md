@@ -1,4 +1,5 @@
 # ip-tracker
+Track dynamic IP changes and notify in Slack.
 
 **.env**
 ```
